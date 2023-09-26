@@ -4,6 +4,7 @@ from metodo1 import metodo_1
 from metodo2 import metodo_2
 
 from mapa import mostrar_personas_en_mapa
+from mapa import calcular_ruta
 
 from datos_prueba import personas
 from utils import clear_screen
@@ -52,5 +53,8 @@ if __name__ == "__main__":
 
     vehiculos_metodo_2 = metodo_2(personas)
     mostrar_personas_en_mapa(personas, vehiculos_metodo_2)
+
+    calcular_ruta(vehiculos_metodo_2[0].personas[0], vehiculos_metodo_2[0].personas[1])
+
     mostrar_asignacion_vehiculos(vehiculos_metodo_2)
     
