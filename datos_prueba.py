@@ -1,8 +1,8 @@
 import random
 import math
 
-from Persona import Persona
-from Vehiculo import Vehiculo
+from model.Persona import Persona
+from model.Vehiculo import Vehiculo
 
 # Lista de 20 nombres
 nombres_disponibles = ["Ana", "Juan", "María", "Carlos", "Laura", "Pedro", "Luis", "Sofía", "Elena", "Diego",

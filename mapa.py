@@ -33,7 +33,7 @@ def mostrar_personas_en_mapa(personas, vehiculos_utilizados):
     mapa.fit_bounds([[min_lat, min_lon], [max_lat, max_lon]])
 
     # Mostrar el mapa en un archivo HTML
-    mapa.save('mapa_personas.html')
+    mapa.save('_data/mapa_personas.html')
 
 
 
@@ -63,5 +63,5 @@ def mostrar_personas_en_mapa_1(personas):
     mapa.fit_bounds([[min_lat, min_lon], [max_lat, max_lon]])
 
     # Mostrar el mapa en un archivo HTML
-    mapa.save('mapa_personas.html')
+    mapa.save('data/mapa_personas.html')
 
